@@ -4,6 +4,6 @@ SELECT * FROM EMPLOYEE WHERE empname LIKE 'A%';
 
 SELECT * FROM Department WHERE deptloc = 'Chennai';
 
-SELECT * FROM Department WHERE deptloc = 'Chennai' OR 'Hyderabad';
+SELECT * FROM Department WHERE deptloc = 'Chennai' OR deptloc = 'Hyderabad';
 
 SELECT * FROM Department WHERE deptloc != 'Chennai' AND deptloc != 'Hyderabad';
